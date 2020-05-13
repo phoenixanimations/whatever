@@ -11,6 +11,7 @@ namespace TagFramework
         Wall,
         Player,
         Interactive,
-        Noninteractive
+        Noninteractive,
+        Unit
     }
 }

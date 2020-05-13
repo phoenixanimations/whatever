@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -6147316144552175214}
   - component: {fileID: 4931569555376060336}
   - component: {fileID: -9015811567502026802}
+  - component: {fileID: 114915736901994878}
   m_Layer: 0
   m_Name: Enemy3D
   m_TagString: Untagged
@@ -58,7 +59,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -70,7 +70,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -143,3 +142,16 @@ MonoBehaviour:
   health: 10
   attack: 1
   win: 0
+--- !u!114 &114915736901994878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7888285309568269907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3300af52adf5442890d441d52b7eaf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tags: 05000000

@@ -41,7 +41,17 @@ namespace TagFramework
         {
             return CompareTags(first.tags, second.tags);
         }
-
+        
+        public static bool HasTag (Component component, TagData tag)
+        {
+            Tag compTag = component.GetComponent<Tag>() as Tag;
+            if (compTag != null)
+            {
+                return compTag.HasTag(tag);
+            }
+            return false;
+        }
+        
         public bool CompareTags (Tag second)
         {
             return CompareTags(tags, second.tags);
