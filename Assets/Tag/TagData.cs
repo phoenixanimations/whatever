@@ -13,6 +13,9 @@ namespace TagFramework
         Interactive,
         Noninteractive,
         Unit,
-        Enemy
+        Enemy,
+        
+
+
     }
 }
