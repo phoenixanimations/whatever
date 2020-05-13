@@ -12,6 +12,7 @@ namespace TagFramework
         Player,
         Interactive,
         Noninteractive,
-        Unit
+        Unit,
+        Enemy
     }
 }
