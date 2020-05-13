@@ -37,7 +37,10 @@ public class Walk : MonoBehaviour
     void OnCollisionStay(Collision col)
     {
         startMovement = false;
-        combat.StartCombat(col.gameObject.GetComponent<Combat>() as Combat);
+        if(Tag.HasTag(col, TagData.Unit))
+        {
+            combat.StartCombat(col.gameObject.GetComponent<Combat>() as Combat);
+        }
     }
 }
 // enemy that enables gravity on touch
