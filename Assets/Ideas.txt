@@ -1,6 +1,9 @@
 + Physics toggle/ gravity toggle.
-+ Accelerator enemy.
 + Trampoline.
++ Spinner thing that plops in the middle and ruins the board.
++ Guy who steals your selectables and throws them off.
++ Portal over lanes.
++ Accelerator enemy.
 + Raygun + Shotgun.
 + When summoned 3 x 3 aoe.
 + Grab guy drag in slowly drag in.
