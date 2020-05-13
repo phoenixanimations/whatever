@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//hi
+
 public class Select : MonoBehaviour
 {
     public GameObject unit;
