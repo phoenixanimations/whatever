@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TagFramework;
 
 [RequireComponent(typeof(Combat))]
 [RequireComponent(typeof(Rigidbody))]
@@ -37,7 +38,7 @@ public class Walk : MonoBehaviour
     void OnCollisionStay(Collision col)
     {
         startMovement = false;
-        if(Tag.HasTag(col, TagData.Unit))
+        if(Tag.HasTag(col.collider, TagData.Unit))
         {
             combat.StartCombat(col.gameObject.GetComponent<Combat>() as Combat);
         }
