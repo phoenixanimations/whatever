@@ -1,3 +1,11 @@
++ Physics toggle/ gravity toggle.
 + Accelerator enemy.
 + Trampoline.
 + Raygun + Shotgun.
++ When summoned 3 x 3 aoe.
++ Grab guy drag in slowly drag in.
++ A stun gun.
++ Reload system/Tick system.
++ Snowball effect.
+
+Version first 5 selectedable.
